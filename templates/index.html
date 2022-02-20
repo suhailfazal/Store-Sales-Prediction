@@ -12,7 +12,26 @@
               #background: #4d0026;
               background: linear-gradient(to left, #667292 0%, #a2b9bc 100%);
           }
-
+           .prediction {
+           position: fixed;
+           bottom:0;
+           left:0;
+           width:100%;
+           background-color: #6ab04c;
+           }
+           .prediction p {
+           vertical-align:center;
+            font-size:20px;
+           color:#fff;
+           text-align:center;
+<!--           padding:10px;-->
+           font-weight:bold;
+           margin-bottom:0;
+           }
+           .backme {
+           text-align:center;
+           text-decoration: underline;
+           }
           footer a{
             color: #fff;
           }
@@ -79,7 +98,6 @@
           .fa-twitter{
             color: #0097e6;
           }
-
     </style>
 
 </head>
@@ -97,7 +115,7 @@
 <div class="wrapper">
     <div class="container my-5">
         <div class="row">
-            <div class="col-md-10 col-sm-6 mx-auto">
+            <div class="col-md-4 text-center col-sm-6 mx-auto">
                 <form class="" action="/predict" method="post">
                     <div class="form-group">
                         <label for="Item_Weight" class="ph-area">Enter Item Weight</label>
@@ -105,8 +123,9 @@
 
                     </div>
                     <div class="form-group">
-                        <select class="form-control" name="Item_Fat_Content" required="required">
-                            <option value="" selected>Item Fat Content</option>
+                        <label for="Item_Fat_Content" class="ph-area">Item Fat Content</label>
+                        <select class="form-control"id="Item_Fat_Content" name="Item_Fat_Content" required="required">
+                            <option >Select</option>
                             <option value="Low_Fat">Low Fat</option>
                             <option value="Regular">Regular</option>
                         </select>
@@ -116,8 +135,9 @@
                         <input type="text" name="Item_Visibility" id="Item_Visibility" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <select class="form-control chosenn" name="Item_Type" required="required">
-                            <option value="" selected>Item Type</option>
+                        <label for="Item_Type" class="ph-area">Item Type </label>
+                        <select class="form-control chosenn" id="Item_Type" name="Item_Type" required="required">
+                            <option >Select</option>
                             <option value="Baking_Goods">Baking Goods</option>
                             <option value="Breads">Breads</option>
                             <option value="Breakfast">Breakfast</option>
@@ -147,24 +167,27 @@
 
                     </div>
                     <div class="form-group">
-                        <select class="form-control chosenn" name="Outlet_Size" required="required">
-                            <option value="" selected>outlet_size</option>
+                        <label for="outlet_size" class="ph-area">Outlet Size </label>
+                        <select class="form-control chosenn" id = "outlet_size" name="Outlet_Size" required="required">
+                            <option value="" selected>Select</option>
                             <option value="High">High</option>
                             <option value="Medium">Medium</option>
                             <option value="Small">Small</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <select class="form-control chosenn" name="Outlet_Location_Type" required="required">
-                            <option value="" selected>outlet_location_type</option>
+                        <label for="outlet_location_type" class="ph-area">Outlet Location Type </label>
+                        <select class="form-control chosenn" id = "outlet_location_type" name="Outlet_Location_Type" required="required">
+                            <option value="" selected>Select</option>
                             <option value="Tier_1">Tier 1</option>
                             <option value="Tier_2">Tier 2</option>
                             <option value="Tier_3">Tier 3</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <select class="form-control chosenn" name="Outlet_Type" required="required">
-                            <option value="" selected>outlet_type</option>
+                        <label for="outlet_type" class="ph-area">Outlet Type </label>
+                        <select class="form-control chosenn"id = "outlet_type" name="Outlet_Type" required="required">
+                            <option value="" selected>Select</option>
                             <option value="0">Grocery Store</option>
                             <option value="Supermarket_Type1">Supermarket Type1</option>
                             <option value="Supermarket_Type2">Supermarket Type2</option>
@@ -172,20 +195,21 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <select class="form-control chosenn" name="New_Item_Type" required="required">
-                            <option value="-1" selected>select type</option>
+                        <label for="new_item_type" class="ph-area">Product Category </label>
+                        <select class="form-control chosenn" id = "new_item_type" name="New_Item_Type" required="required">
+                            <option value="-1" selected>Select</option>
                             <option value="Food">Food</option>
                             <option value="Drinks">Drinks</option>
                             <option value="Non_Consumables">Non_Consumables</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <input type="submit" class="btn btn-primary" value="Submit">
-                        <input type="reset" class="btn btn-danger" value="Reset">
+                        <input type="submit" class="btn btn-primary" value="Predict">
+<!--                        <input type="reset" class="btn btn-danger" value="Reset">-->
                     </div>
                 </form>
-                <div>
-                    <label class="ph-area">{{prediction_text}}</label>
+                <div class="prediction" >
+                    <p class="ph-area">{{prediction_text}}</p>
                 </div>
             </div>
         </div>

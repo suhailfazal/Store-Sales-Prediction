@@ -162,7 +162,7 @@ def predict():
             New_Item_Type_2]
         prediction = model.predict(pd.DataFrame([list]))
 
-        output = round(prediction[0], 10)
+        output = round(prediction[0],10)
 
         return render_template('index.html', prediction_text="Your Predicted Sales value is {}".format(math.exp(output)))
     return render_template("index.html")
