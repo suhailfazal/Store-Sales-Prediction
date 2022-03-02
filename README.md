@@ -80,7 +80,7 @@ The cloud environment was set up and the project was deployed from GitHub into t
 App Link: https://ineuron-storesalesprediction.herokuapp.com/
 
 ## Webpage
-[Webpage](img_files/Page.png)
+[Webpage](img files/Page.png)
 [Result](img_files/result.png)
 
 ## Tech Stack
