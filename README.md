@@ -88,7 +88,7 @@ App Link: https://ineuron-storesalesprediction.herokuapp.com/
 
 **Back-end:** Flask
 
-**Deployment Server:** Heruko
+**Deployment :** Heruko
 
 **Programming Language:** Python
 
@@ -97,7 +97,7 @@ App Link: https://ineuron-storesalesprediction.herokuapp.com/
 [Libraries](img_files/libraries_used.png)
 
 ## 🔗 Links
-[Github](https://github.com/suhailfazal)
-[Blogs](https://blog.ineuron.ai/@suhailfazaln/)
-[linkedin](https://www.linkedin.com/in/suhailfazal//)
+ [Github](https://github.com/suhailfazal)
+ [Blogs](https://blog.ineuron.ai/@suhailfazaln/)
+ [Linkedin](https://www.linkedin.com/in/suhailfazal//)
 
