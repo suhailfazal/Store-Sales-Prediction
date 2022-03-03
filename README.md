@@ -97,7 +97,7 @@ App Link: https://ineuron-storesalesprediction.herokuapp.com/
 
 ## 🔗 Links
 <a href="https://github.com/suhailfazal">GitHub</a> | 
-<a href="https://blog.ineuron.ai/@suhailfazaln/">Blog</a> | 
+<a href="https://blog.ineuron.ai/@suhailfazaln/">Blogs</a> | 
 <a href="https://www.linkedin.com/in/suhailfazal/">Linkedin</a>
 
 [comment]: <> ([![Github]&#40;https://github.com/suhailfazal&#41;)
