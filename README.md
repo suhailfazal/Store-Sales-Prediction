@@ -96,7 +96,13 @@ App Link: https://ineuron-storesalesprediction.herokuapp.com/
 ![Libraries](img/libraries_used.png)
 
 ## 🔗 Links
-[![Github](https://github.com/suhailfazal)
-[![Blogs](https://blog.ineuron.ai/@suhailfazaln/)
-[![linkedin](https://www.linkedin.com/in/suhailfazal//)
+<a href="https://github.com/suhailfazal">GitHub</a> | 
+<a href="https://blog.ineuron.ai/@suhailfazaln/">Blog</a> | 
+<a href="https://www.linkedin.com/in/suhailfazal/">Linkedin</a>
+
+[comment]: <> ([![Github]&#40;https://github.com/suhailfazal&#41;)
+
+[comment]: <> ([![Blogs]&#40;https://blog.ineuron.ai/@suhailfazaln/&#41;)
+
+[comment]: <> ([![linkedin]&#40;https://www.linkedin.com/in/suhailfazal/&#41;)
 
