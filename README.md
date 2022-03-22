@@ -87,7 +87,7 @@ App Link: https://ineuron-storesalesprediction.herokuapp.com/
 
 **Back-end:** Flask
 
-**Deployment Server:** Heruko
+**Deployment Server:** Heroku
 
 **Programming Language:** Python
 
